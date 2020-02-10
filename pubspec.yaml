@@ -1,0 +1,21 @@
+name: BottomAniNavBar
+description: Animated Bottom Navigation bar
+version: 0.0.1
+author: Ome Asraf
+homepage: https://github.com/omeasraf
+
+environment:
+  sdk: ">=2.5.2 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  plugin:
+    androidPackage: com.ome.BottomAniNavBar
+    pluginClass: BottomAniNavBarPlugin
