@@ -2,6 +2,37 @@
 
 Animated bottom navigation bar for Flutter
 
+
+## Usage
+
+```dart
+BottomAniNavBar(
+    unselectedItemColor: Colors.red,
+    currentIndex: _currentIndex,
+    onTap: (int index) {
+        setState(() {
+            _currentIndex = index;
+        });
+    },
+    items: [
+        BottomNavigationBarItem(
+            icon: Icon(Icons.home),
+            title: Text(
+                'Home',
+                style: textStyle,
+            )
+        ),
+        BottomNavigationBarItem(
+            icon: Icon(Icons.search),
+            title: Text(
+                'Search',
+                style: textStyle,
+            )
+        )
+    ]);
+```
+
+
 ![Home Page screenshot](https://raw.githubusercontent.com/omeasraf/BottomAniNavBar/master/Simulator-Screen%20Shot.png)
 
 
