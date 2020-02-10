@@ -52,6 +52,9 @@ BottomAniNavBar(
     ]);
 ```
 
+![Animated](https://raw.githubusercontent.com/omeasraf/BottomAniNavBar/master/screenshot.gif)
+
+
 
 [Home Page screenshot](https://raw.githubusercontent.com/omeasraf/BottomAniNavBar/master/ScreenShot.png)
 
