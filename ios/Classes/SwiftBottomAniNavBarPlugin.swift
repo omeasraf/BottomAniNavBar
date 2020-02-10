@@ -3,7 +3,7 @@ import UIKit
 
 public class SwiftBottomAniNavBarPlugin: NSObject, FlutterPlugin {
   public static func register(with registrar: FlutterPluginRegistrar) {
-    let channel = FlutterMethodChannel(name: "BottomAniNavBar", binaryMessenger: registrar.messenger())
+    let channel = FlutterMethodChannel(name: "bottom_ani_nav_bar", binaryMessenger: registrar.messenger())
     let instance = SwiftBottomAniNavBarPlugin()
     registrar.addMethodCallDelegate(instance, channel: channel)
   }

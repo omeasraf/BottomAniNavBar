@@ -1,4 +1,4 @@
-package com.ome.BottomAniNavBar
+package com.ome.bottom_ani_nav_bar
 
 import androidx.annotation.NonNull;
 import io.flutter.embedding.engine.plugins.FlutterPlugin
@@ -17,7 +17,7 @@ public class BottomAniNavBarPlugin: FlutterPlugin, MethodCallHandler {
   private lateinit var channel : MethodChannel
 
   override fun onAttachedToEngine(@NonNull flutterPluginBinding: FlutterPlugin.FlutterPluginBinding) {
-    channel = MethodChannel(flutterPluginBinding.getFlutterEngine().getDartExecutor(), "BottomAniNavBar")
+    channel = MethodChannel(flutterPluginBinding.getFlutterEngine().getDartExecutor(), "bottom_ani_nav_bar")
     channel.setMethodCallHandler(this);
   }
 
@@ -33,7 +33,7 @@ public class BottomAniNavBarPlugin: FlutterPlugin, MethodCallHandler {
   companion object {
     @JvmStatic
     fun registerWith(registrar: Registrar) {
-      val channel = MethodChannel(registrar.messenger(), "BottomAniNavBar")
+      val channel = MethodChannel(registrar.messenger(), "bottom_ani_nav_bar")
       channel.setMethodCallHandler(BottomAniNavBarPlugin())
     }
   }

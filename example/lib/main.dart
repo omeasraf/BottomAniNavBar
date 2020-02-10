@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:BottomAniNavBar/BottomAniNavBar.dart';
+import 'package:bottom_ani_nav_bar/bottom_ani_nav_bar.dart';
 
 void main() => runApp(MyApp());
 

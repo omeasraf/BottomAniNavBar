@@ -1,4 +1,4 @@
-group 'com.ome.BottomAniNavBar'
+group 'com.ome.bottom_ani_nav_bar'
 version '1.0-SNAPSHOT'
 
 buildscript {

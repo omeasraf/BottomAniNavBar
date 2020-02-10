@@ -1,9 +1,9 @@
 import 'package:flutter/services.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:BottomAniNavBar/BottomAniNavBar.dart';
+import 'package:bottom_ani_nav_bar/bottom_ani_nav_bar.dart';
 
 void main() {
-  const MethodChannel channel = MethodChannel('BottomAniNavBar');
+  const MethodChannel channel = MethodChannel('bottom_ani_nav_bar');
 
   TestWidgetsFlutterBinding.ensureInitialized();
 
@@ -17,7 +17,7 @@ void main() {
     channel.setMockMethodCallHandler(null);
   });
 
-  test('getPlatformVersion', () async {
-    print("I am ready");
-  });
+  // test('getPlatformVersion', () async {
+  //   expect(await BottomAniNavBar.platformVersion, '42');
+  // });
 }

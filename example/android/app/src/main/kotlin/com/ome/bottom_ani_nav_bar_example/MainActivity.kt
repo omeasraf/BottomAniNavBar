@@ -1,4 +1,4 @@
-package com.ome.BottomAniNavBar_example
+package com.ome.bottom_ani_nav_bar_example
 
 import androidx.annotation.NonNull;
 import io.flutter.embedding.android.FlutterActivity

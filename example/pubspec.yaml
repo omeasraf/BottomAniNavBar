@@ -1,5 +1,5 @@
-name: BottomAniNavBar_example
-description: Demonstrates how to use the BottomAniNavBar plugin.
+name: bottom_ani_nav_bar_example
+description: Demonstrates how to use the bottom_ani_nav_bar plugin.
 publish_to: 'none'
 
 environment:
@@ -17,7 +17,7 @@ dev_dependencies:
   flutter_test:
     sdk: flutter
 
-  BottomAniNavBar:
+  bottom_ani_nav_bar:
     path: ../
 
 # For information on the generic Dart part of this file, see the

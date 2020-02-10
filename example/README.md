@@ -1,6 +1,6 @@
-# BottomAniNavBar_example
+# bottom_ani_nav_bar_example
 
-Demonstrates how to use the BottomAniNavBar plugin.
+Demonstrates how to use the bottom_ani_nav_bar plugin.
 
 ## Getting Started
 
