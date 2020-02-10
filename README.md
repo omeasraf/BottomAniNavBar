@@ -2,7 +2,8 @@
 
 Animated bottom navigation bar for Flutter
 
-
+> Note: This is a modified version of "BottomNavigationBar" from Flutter team
+ 
 ## Usage
 
 ```dart
