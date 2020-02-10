@@ -3,7 +3,25 @@
 Animated bottom navigation bar for Flutter
 
 > Note: This is a modified version of "BottomNavigationBar" from Flutter team
- 
+
+
+
+## Getting Started
+
+Add the dependency in `pubspec.yaml`:
+
+```yaml
+dependencies:
+  bottom_ani_nav_bar: ^0.0.1
+  ```
+
+## Import it
+
+
+```dart
+import 'package:bottom_ani_nav_bar/bottom_ani_nav_bar.dart';
+  ```
+
 ## Usage
 
 ```dart
