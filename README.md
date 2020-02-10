@@ -12,7 +12,7 @@ Add the dependency in `pubspec.yaml`:
 
 ```yaml
 dependencies:
-  bottom_ani_nav_bar: ^0.0.1
+  bottom_ani_nav_bar: ^0.0.2
   ```
 
 ## Import it
@@ -25,6 +25,7 @@ import 'package:bottom_ani_nav_bar/bottom_ani_nav_bar.dart';
 ## Usage
 
 ```dart
+// Imported as BottomAniNavBar
 BottomAniNavBar(
     unselectedItemColor: Colors.red,
     currentIndex: _currentIndex,
