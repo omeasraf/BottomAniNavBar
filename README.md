@@ -33,7 +33,7 @@ BottomAniNavBar(
 ```
 
 
-![Home Page screenshot](https://raw.githubusercontent.com/omeasraf/BottomAniNavBar/master/Simulator-Screen%20Shot.png)
+[Home Page screenshot](https://raw.githubusercontent.com/omeasraf/BottomAniNavBar/master/Simulator-Screen%20Shot.png)
 
 
 ## Getting Started
