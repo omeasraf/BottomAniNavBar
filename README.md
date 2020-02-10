@@ -12,7 +12,7 @@ Add the dependency in `pubspec.yaml`:
 
 ```yaml
 dependencies:
-  bottom_ani_nav_bar: ^0.0.2
+  bottom_ani_nav_bar: ^0.0.3
   ```
 
 ## Import it
